@@ -10,7 +10,12 @@
 // @grant        GM_setClipboard
 // @connect      cdn.csgoskins.gg
 // @require      https://cdn.jsdelivr.net/npm/fflate@0.8.2/umd/index.js
+// @updateURL    https://raw.githubusercontent.com/VueDevOps/csgoskins-3d-asset-downloader/main/src/csgoskins-3d-downloader.user.js
+// @downloadURL  https://raw.githubusercontent.com/VueDevOps/csgoskins-3d-asset-downloader/main/src/csgoskins-3d-downloader.user.js
+// @homepageURL  https://github.com/VueDevOps/csgoskins-3d-asset-downloader
+// @supportURL   https://github.com/VueDevOps/csgoskins-3d-asset-downloader/issues
 // ==/UserScript==
+
 
 (() => {
   'use strict';
