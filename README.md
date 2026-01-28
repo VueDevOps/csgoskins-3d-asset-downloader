@@ -13,12 +13,18 @@ Environment maps are intentionally ignored.
 ## Install
 
 1. Install a userscript manager:
-   - Tampermonkey (Chrome/Edge)
-   - Violentmonkey (Firefox)
 
-2. Install the script:
-   - **Install / Update (Raw)**  
-     https://raw.githubusercontent.com/VueDevOps/csgoskins-3d-asset-downloader/main/src/csgoskins-3d-downloader.user.js
+- **Tampermonkey (Chrome / Edge)**  
+  https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en
+
+- **Violentmonkey (Firefox)**  
+  https://addons.mozilla.org/en-US/firefox/addon/violentmonkey/
+
+2. Install the userscript:
+
+- **Install / Update (Raw)**  
+  https://raw.githubusercontent.com/VueDevOps/csgoskins-3d-asset-downloader/main/src/csgoskins-3d-downloader.user.js
+
 
 ## Usage
 
