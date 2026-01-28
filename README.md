@@ -25,6 +25,12 @@ Environment maps are intentionally ignored.
 - **Install / Update (Raw)**  
   https://raw.githubusercontent.com/VueDevOps/csgoskins-3d-asset-downloader/main/src/csgoskins-3d-downloader.user.js
 
+<h2>Tutorial</h2>
+<p>
+  <a href="media/tutorial.gif">
+    <img src="media/tutorial.gif" alt="Tutorial" width="800">
+  </a>
+</p>
 
 ## Usage
 
