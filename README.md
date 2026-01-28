@@ -1,11 +1,12 @@
-# karambit.gg csgoskins fetcher
+# CSGoSkins.gg 3D Asset Downloader
 
-Tampermonkey userscript that adds a floating **Download 3D ZIP** button on CSGoSkins.gg item pages and downloads:
+Userscript for Tampermonkey/Violentmonkey that adds a floating **Download 3D ZIP** button on CSGoSkins.gg item pages.
 
-- `mesh.glb` (model)
-- original texture PNGs (decoded from the site’s proxy URLs)
-- `mesh.obj` (exported from the GLB)
-- `manifest.json` (what was captured + any failed downloads)
+It downloads:
+- `model/mesh.glb` (model)
+- `model/mesh.obj` (OBJ exported from the GLB)
+- `textures/*.png` (original texture URLs decoded from the site’s proxy)
+- `manifest.json` (captured URLs + any failures)
 
 Environment maps are intentionally ignored.
 
@@ -16,21 +17,23 @@ Environment maps are intentionally ignored.
    - Violentmonkey (Firefox)
 
 2. Install the script:
-   - **Install (Raw)**: https://raw.githubusercontent.com/<YOUR_USER>/<YOUR_REPO>/main/src/csgoskins-3d-downloader.user.js
+   - **Install / Update (Raw)**  
+     https://raw.githubusercontent.com/VueDevOps/csgoskins-3d-asset-downloader/main/src/csgoskins-3d-downloader.user.js
 
 ## Usage
 
-1. Visit any item page: `https://csgoskins.gg/items/...`
+1. Visit an item page: `https://csgoskins.gg/items/...`
 2. Click the floating **Download 3D ZIP** button
-3. Wait for the ZIP download
+3. Wait for the ZIP to download
 
-If a texture fails, the script continues and lists failures in `manifest.json`.
+If a texture fails, the script continues and lists failures in `manifest.json` under `textures_failed`.
 
 ## Notes
 
-- Console logs are enabled by default (prefix: `[CSGOSKINS-3D]`).
-- OBJ export uses Three.js modules inside the page context.
+- Console logging is enabled by default (prefix: `[CSGOSKINS-3D]`).
+- OBJ export runs via Three.js modules in the page context.
+- Not affiliated with CSGoSkins.gg.
 
-## Disclaimer
+## License
 
-This project is not affiliated with CSGoSkins.gg.
+MIT
